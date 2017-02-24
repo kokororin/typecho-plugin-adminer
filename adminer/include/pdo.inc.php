@@ -1,4 +1,7 @@
 <?php
+if (!defined('__TYPECHO_ROOT_DIR__')) {
+    exit;
+}
 // PDO can be used in several database drivers
 if (extension_loaded('pdo')) {
 	/*abstract*/ class Min_PDO extends PDO {

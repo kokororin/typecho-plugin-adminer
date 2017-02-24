@@ -1,4 +1,7 @@
 <?php
+if (!defined('__TYPECHO_ROOT_DIR__')) {
+    exit;
+}
 function connect_error() {
 	global $adminer, $connection, $token, $error, $drivers;
 	if (DB != "") {

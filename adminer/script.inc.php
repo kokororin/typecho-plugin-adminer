@@ -1,4 +1,7 @@
 <?php
+if (!defined('__TYPECHO_ROOT_DIR__')) {
+    exit;
+}
 header("Content-Type: text/javascript; charset=utf-8");
 
 if ($_GET["script"] == "db") {

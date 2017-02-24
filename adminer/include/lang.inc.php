@@ -1,4 +1,7 @@
 <?php
+if (!defined('__TYPECHO_ROOT_DIR__')) {
+    exit;
+}
 // not used in a single language version
 
 $langs = array(

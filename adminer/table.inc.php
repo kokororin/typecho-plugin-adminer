@@ -1,4 +1,7 @@
 <?php
+if (!defined('__TYPECHO_ROOT_DIR__')) {
+    exit;
+}
 $TABLE = $_GET["table"];
 $fields = fields($TABLE);
 if (!$fields) {

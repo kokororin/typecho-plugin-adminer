@@ -1,4 +1,7 @@
 <?php
+if (!defined('__TYPECHO_ROOT_DIR__')) {
+    exit;
+}
 $TABLE = $_GET["foreign"];
 $name = $_GET["name"];
 $row = $_POST;

@@ -1,4 +1,7 @@
 <?php
+if (!defined('__TYPECHO_ROOT_DIR__')) {
+    exit;
+}
 $status = isset($_GET["status"]);
 page_header($status ? lang('Status') : lang('Variables'));
 

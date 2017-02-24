@@ -1,4 +1,7 @@
 <?php
+if (!defined('__TYPECHO_ROOT_DIR__')) {
+    exit;
+}
 $drivers = array("server" => "MySQL") + $drivers;
 
 if (!defined("DRIVER")) {

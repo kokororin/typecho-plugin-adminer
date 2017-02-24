@@ -7,6 +7,10 @@
 * @license http://www.gnu.org/licenses/gpl-2.0.html GNU General Public License, version 2 (one or other)
 */
 
+if (!defined('__TYPECHO_ROOT_DIR__')) {
+    exit;
+}
+
 include __DIR__ . "/./include/bootstrap.inc.php";
 include __DIR__ . "/./include/tmpfile.inc.php";
 

@@ -1,4 +1,7 @@
 <?php
+if (!defined('__TYPECHO_ROOT_DIR__')) {
+    exit;
+}
 $TABLE = $_GET["download"];
 $fields = fields($TABLE);
 header("Content-Type: application/octet-stream");

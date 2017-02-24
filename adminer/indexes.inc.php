@@ -1,4 +1,7 @@
 <?php
+if (!defined('__TYPECHO_ROOT_DIR__')) {
+    exit;
+}
 $TABLE = $_GET["indexes"];
 $index_types = array("PRIMARY", "UNIQUE", "INDEX");
 $table_status = table_status($TABLE, true);

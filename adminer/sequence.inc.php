@@ -1,4 +1,7 @@
 <?php
+if (!defined('__TYPECHO_ROOT_DIR__')) {
+    exit;
+}
 $SEQUENCE = $_GET["sequence"];
 $row = $_POST;
 

@@ -1,4 +1,7 @@
 <?php
+if (!defined('__TYPECHO_ROOT_DIR__')) {
+    exit;
+}
 /** Print select result
 * @param Min_Result
 * @param Min_DB connection to examine indexes

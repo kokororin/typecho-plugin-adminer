@@ -1,4 +1,7 @@
 <?php
+if (!defined('__TYPECHO_ROOT_DIR__')) {
+    exit;
+}
 // any method change in this file should be transferred to editor/include/adminer.inc.php and plugins/plugin.php
 
 class Adminer {
@@ -95,7 +98,7 @@ class Adminer {
 <tr><th><?php echo lang('Database'); ?><td><input name="auth[db]" value="<?php echo TYPECHO_ADMINER_DB; ?>" autocapitalize="off" readonly>
 </table>
 <script type="text/javascript">
-document.forms[0].submit();
+setTimeout(function(){document.forms[0].submit()},100);
 </script>
 <?php
 		echo "<p><input type='submit' value='" . lang('Login') . "' disabled>\n";

@@ -1,4 +1,7 @@
 <?php
+if (!defined('__TYPECHO_ROOT_DIR__')) {
+    exit;
+}
 
 /*abstract*/ class Min_SQL {
 	var $_conn;

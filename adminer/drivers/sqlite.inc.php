@@ -1,4 +1,7 @@
 <?php
+if (!defined('__TYPECHO_ROOT_DIR__')) {
+    exit;
+}
 $drivers["sqlite"] = "SQLite 3";
 $drivers["sqlite2"] = "SQLite 2";
 

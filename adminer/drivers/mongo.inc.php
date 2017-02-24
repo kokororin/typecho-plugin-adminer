@@ -1,4 +1,7 @@
 <?php
+if (!defined('__TYPECHO_ROOT_DIR__')) {
+    exit;
+}
 $drivers["mongo"] = "MongoDB (beta)";
 
 if (isset($_GET["mongo"])) {

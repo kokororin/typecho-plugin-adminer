@@ -1,4 +1,7 @@
 <?php
+if (!defined('__TYPECHO_ROOT_DIR__')) {
+    exit;
+}
 $PROCEDURE = $_GET["call"];
 page_header(lang('Call') . ": " . h($PROCEDURE), $error);
 

@@ -1,4 +1,7 @@
 <?php
+if (!defined('__TYPECHO_ROOT_DIR__')) {
+    exit;
+}
 $tables_views = array_merge((array) $_POST["tables"], (array) $_POST["views"]);
 
 if ($tables_views && !$error && !$_POST["search"]) {

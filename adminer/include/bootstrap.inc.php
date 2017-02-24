@@ -1,4 +1,7 @@
 <?php
+if (!defined('__TYPECHO_ROOT_DIR__')) {
+    exit;
+}
 error_reporting(6135); // errors and warnings
 
 include __DIR__ . "/coverage.inc.php";

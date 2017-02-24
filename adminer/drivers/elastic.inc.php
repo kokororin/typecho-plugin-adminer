@@ -1,4 +1,7 @@
 <?php
+if (!defined('__TYPECHO_ROOT_DIR__')) {
+    exit;
+}
 $drivers["elastic"] = "Elasticsearch (beta)";
 
 if (isset($_GET["elastic"])) {

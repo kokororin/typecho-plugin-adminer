@@ -1,4 +1,7 @@
 <?php
+if (!defined('__TYPECHO_ROOT_DIR__')) {
+    exit;
+}
 $USER = $_GET["user"];
 $privileges = array("" => array("All privileges" => ""));
 foreach (get_rows("SHOW PRIVILEGES") as $row) {

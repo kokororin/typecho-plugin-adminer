@@ -1,4 +1,7 @@
 <?php
+if (!defined('__TYPECHO_ROOT_DIR__')) {
+    exit;
+}
 $drivers["simpledb"] = "SimpleDB";
 
 if (isset($_GET["simpledb"])) {

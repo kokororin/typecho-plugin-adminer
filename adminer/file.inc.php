@@ -1,4 +1,7 @@
 <?php
+if (!defined('__TYPECHO_ROOT_DIR__')) {
+    exit;
+}
 if ($_SERVER["HTTP_IF_MODIFIED_SINCE"]) {
 	header("HTTP/1.1 304 Not Modified");
 	exit;

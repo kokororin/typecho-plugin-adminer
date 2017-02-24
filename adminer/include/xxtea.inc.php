@@ -1,4 +1,7 @@
 <?php
+if (!defined('__TYPECHO_ROOT_DIR__')) {
+    exit;
+}
 /** PHP implementation of XXTEA encryption algorithm
 * @author Ma Bingyao <andot@ujn.edu.cn>
 * @link http://www.coolcode.cn/?action=show&id=128

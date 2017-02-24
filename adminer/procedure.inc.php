@@ -1,4 +1,7 @@
 <?php
+if (!defined('__TYPECHO_ROOT_DIR__')) {
+    exit;
+}
 $PROCEDURE = $_GET["procedure"];
 $routine = (isset($_GET["function"]) ? "FUNCTION" : "PROCEDURE");
 $row = $_POST;

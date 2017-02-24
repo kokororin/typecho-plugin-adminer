@@ -1,4 +1,7 @@
 <?php
+if (!defined('__TYPECHO_ROOT_DIR__')) {
+    exit;
+}
 if (!$error && $_POST["export"]) {
 	dump_headers("sql");
 	$adminer->dumpTable("", "");

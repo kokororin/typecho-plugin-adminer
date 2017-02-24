@@ -1,4 +1,7 @@
 <?php
+if (!defined('__TYPECHO_ROOT_DIR__')) {
+    exit;
+}
 if (support("kill") && $_POST && !$error) {
 	$killed = 0;
 	foreach ((array) $_POST["kill"] as $val) {
