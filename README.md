@@ -13,5 +13,5 @@ Adminer (formerly phpMinAdmin) is a full-featured MySQL management tool written 
 4. Activate the plugin through the 'Plugins' menu in Typecho.
 5. Menu `Console` -> `Adminer`
 
-## LICENSE
+## License
 [MIT license](http://opensource.org/licenses/mit-license.php)
